@@ -41,19 +41,40 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
 </div>
 
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "357339",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
+<!-- END: Livefyre Embed -->
+            
+
 
           <div class="footer">
             <div class="contact">
               <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
+                Michael Farmer<br />
+                mike.farmer+blog[at]gmail.com
               </p>
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+                <a href="https://github.com/mikefarmer">github.com/mikefarmer</a><br />
+                <a href="https://twitter.com/mikefarmer">twitter.com/mikefarmer</a><br />
               </p>
             </div>
           </div>

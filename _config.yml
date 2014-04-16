@@ -1,3 +1,9 @@
 name: Blog of Michael Farmer
 markdown: redcarpet
 pygments: true
+timezone: America/Denver
+
+url: "http://www.michaelfarmer.info"
+ 
+kramdown:
+  input: GFM
