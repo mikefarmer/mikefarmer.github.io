@@ -1,0 +1,46 @@
+
+@import "bourbon";
+@import "settings";
+@import "neat";
+@import "defaults";
+@import url(http://fonts.googleapis.com/css?family=Brawler|Oswald:700|Merriweather|Open+Sans);
+
+#main-wrapper {
+  @include outer-container;
+  text-align: center;
+  
+  #coming-soon {
+    @include span-columns(6);
+    @include shift(3);
+    margin-top: 100px;
+    font-family: $font-sans;
+    font-size: 18px;
+    color: #717171;
+  }
+  
+  #title {
+    @include span-columns(6);
+    @include shift(3);
+    font-family: $font-serif;
+    font-size: 58px;
+
+  }
+
+  #description {
+    @include span-columns(6);
+    @include shift(3);
+
+    margin-top:50px;
+    font-family: $font-text;
+    font-size: 14px;
+  }
+
+  #disclaimer {
+    @include span-columns(6);
+    @include shift(3);
+    margin-top:50px;
+    font-family: $font-text;
+    font-size: 10px;
+    color: #A2A2A2;
+  }
+}

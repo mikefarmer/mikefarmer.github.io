@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler|Oswald:700|Merriweather|Open+Sans);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#main-wrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  #main-wrapper:before, #main-wrapper:after {
+    content: " ";
+    display: table; }
+  #main-wrapper:after {
+    clear: both; }
+  #main-wrapper #coming-soon {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #717171; }
+    #main-wrapper #coming-soon:last-child {
+      margin-right: 0; }
+  #main-wrapper #title {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    font-family: "Brawler", serif;
+    font-size: 58px; }
+    #main-wrapper #title:last-child {
+      margin-right: 0; }
+  #main-wrapper #description {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    margin-top: 50px;
+    font-family: "Merriweather", serif;
+    font-size: 14px; }
+    #main-wrapper #description:last-child {
+      margin-right: 0; }
+  #main-wrapper #disclaimer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    margin-top: 50px;
+    font-family: "Merriweather", serif;
+    font-size: 10px;
+    color: #A2A2A2; }
+    #main-wrapper #disclaimer:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=blog.css.map */
